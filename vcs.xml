@@ -30,8 +30,12 @@
           <option name="url" value="https://github.com/travel-gj/travel-front.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/linlinjava/litemall.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\workspace_idea\travel-gj" />
+    <option name="cloneParentDir" value="D:\workspace_idea" />
   </component>
 </application>

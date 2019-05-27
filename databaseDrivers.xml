@@ -38,8 +38,15 @@
       <option name="auto-sync" value="true" />
     </driver>
     <driver id="mysql">
-      <artifact name="MySQL Connector/J" use="true" />
+      <artifact name="MySQL Connector/J" />
       <option name="auto-sync" value="true" />
+      <option name="auto-commit" value="true" />
+      <option name="send-app-info" value="true" />
+      <option name="schema-control" value="AUTOMATIC" />
+      <library>
+        <url>file://D:/mavenlocal/mysql/mysql-connector-java/5.1.39/mysql-connector-java-5.1.39.jar</url>
+      </library>
+      <code-style-scheme-name>Default</code-style-scheme-name>
     </driver>
     <driver id="mariadb">
       <artifact name="MariaDB Connector J" use="true" />
